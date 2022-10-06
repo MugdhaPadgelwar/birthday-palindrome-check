@@ -2,10 +2,33 @@ body{
     margin: auto;
     text-align: center;
     display: block;
+    background-color:#472c46;
+    color:#a05f8c;
 }
 h1{
     display: block;
     text-align: center;
     margin: auto;
     width: 50%;
+    padding: 1rem 1.5rem;
 }
+
+input{
+    height: 1.5rem;
+    width: 10rem;
+    text-align: center;
+}
+
+#output{
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button{
+    height:1.7rem ;
+    width:5rem;
+    border-color: #a05f8c;
+    cursor: pointer;
+}
+
