@@ -19,7 +19,7 @@ function clickHandler() {
     var isPalindrome = checkPalindromeForAllDateFormats(date);
 
     if (isPalindrome) {
-      z;
+      
       output.innerText = "🎁🎁 Hurray!! Your birthday is a palindrome.";
     } else {
       var [nextCtr, nextDate] = getNextPalindromeDate(date);
